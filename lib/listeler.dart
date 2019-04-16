@@ -17,7 +17,7 @@ class Listeler extends StatelessWidget {
             title: Text("Albüm"),
           ),
           ListTile(
-            leading: Icon(Icons.phone),
+            leading: Icon(Icons.access_alarm),
             title: Text("Phone"),
           )
 
