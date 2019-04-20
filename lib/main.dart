@@ -10,6 +10,7 @@ import 'yatayListe.dart';
 import 'gridDeneme.dart';
 import "CustomItemList.dart";
 import 'package:libdeneme/gorevUyg/gorevlerPage.dart';
+import 'package:libdeneme/network/network.dart';
 
 void main() => runApp(MyApp());
 
@@ -56,10 +57,8 @@ class _MyAppState extends State<MyApp> {
           "/YatayListe":(BuildContext context)=>new YatayListe(),
           "/Grid":(BuildContext context)=>new GridDeneme(),
           "/OzelListe":(BuildContext context)=>new CustomListDeneme(),
-          "/Gorevler":(BuildContext context)=>new Gorevler()
-
-
-
+          "/Gorevler":(BuildContext context)=>new Gorevler(),
+          "/Network":(BuildContext context)=>new NetworkPage()
         });
   }
 }

@@ -96,6 +96,11 @@ class _AnimasyonSayfasiState extends State<AnimasyonSayfasi> {
                 onTap: () {
                   Navigator.of(context).pushNamed("/Gorevler");
                 }),
+            ListTile(
+                title: Text("Network"),
+                onTap: () {
+                  Navigator.of(context).pushNamed("/Network");
+                }),
           ],
         ),
       ),
